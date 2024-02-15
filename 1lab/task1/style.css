@@ -1,0 +1,23 @@
+#svg1  {
+    animation-delay: 0.1s;
+}
+
+#svg2  {
+    animation-delay: 0.3s;
+}
+
+#svg3 {
+    animation-delay: 0.5s;
+}
+
+.bounce {
+    animation: bounce 0.5s infinite alternate ease-out;
+}
+
+
+
+@keyframes bounce{
+    100% {
+        transform: translateY(-30px);
+    }
+}

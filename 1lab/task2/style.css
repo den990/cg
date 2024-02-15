@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    vertical-align: top;
+}
+
+svg
+{
+    background-color: #e9ecf8;
+    width: 1000px;
+    height: 500px;
+}
+
+.grass
+{
+    fill: #9fb057;
+}
+
+.walls
+{
+    fill: #2211a1;
+}
+
+.roof
+{
+    fill: #ffffff;
+    stroke: #584c38;
+}
+
+.foundation
+{
+    fill: #ff1515;
+}
+
+.chimney
+{
+    fill: #000;
+}
+
+.veranda
+{
+    fill: #5c8cb6;
+}
+
+.verdana-window
+{
+    fill: #cee1e6;
+    stroke: #5c8cb6;
+}
+
+.broken
+{
+    fill: #1e1417;
+}
+
+.veranda-roof
+{
+    fill: #aea987;
+    stroke: #686651;
+}
+
+.stairs
+{
+    fill: #bd8a3e;
+    stroke: #5b431e;
+}
+
+.door
+{
+    fill: #a7967e;
+    stroke: #665c4d;
+}
+
+.door-handle
+{
+    fill: #715a4d;
+}
+
+.door-roof
+{
+    fill: #d27452;
+}
+
+.window
+{
+    fill: #d7d8d3;
+}
+
+.frame
+{
+    fill: #7aa6d3;
+    stroke: #1b3e66;
+}
+
+.window-board
+{
+    fill: #5f5114;
+}
+
+.boarded-up-window
+{
+    fill: #d7d8d3;;
+}
+
+.boarded-up
+{
+    fill: #e2dac5;
+}
+
+.attic
+{
+    fill: #190d0d;
+}
+
+.attic-door
+{
+    fill: #e3c297;
+}
+
+.fence
+{
+    fill: #5f5114;
+    stroke: #48300a;
+}
+
+.pathway
+{
+    fill: #fee682;
+}
+
+.sun
+{
+    fill: #f1e809;
+}
+
+.foliage:nth-child(2n+1)
+{
+    fill: #aec762;
+}
