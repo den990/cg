@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw on image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <div class="menu">
+        <input type="file" id="fileInput" style="display: none"/>
+        <button class="glow-on-hover" type="button" onclick="newFile()">New</button>
+        <button class="glow-on-hover" type="button" onclick="openFile()">Open</button>
+        <div class="dropdown">
+            <button class="glow-on-hover dropbtn">Save As</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="saveAs('png')">PNG</a>
+                <a href="#" onclick="saveAs('bmp')">BMP</a>
+                <a href="#" onclick="saveAs('jpeg')">JPEG</a>
+            </div>
+        </div>
+        <input type="color" id="colorPicker"/>
+    </div>
+<canvas id="canvas" width="1300" height="650" ></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

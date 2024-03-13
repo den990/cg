@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+
+}
+
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#imageView {
+    max-width: 90%;
+    max-height: 90%;
+    position: absolute;
+}
+.close__block
+{
+    display: none;
+    justify-content: flex-end;
+}
